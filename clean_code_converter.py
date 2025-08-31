@@ -26,7 +26,7 @@ class CleanCodeConverter:
     def display_suggestions(self, suggestions):
         print('Refactoring Suggestions:')
         for suggestion in suggestions:
-            print('- ' + suggestion)
+            print(f'- {suggestion}')  # Updated for formatted string
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
