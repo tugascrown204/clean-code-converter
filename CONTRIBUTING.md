@@ -12,5 +12,6 @@ We welcome contributions! Here are some ways you can help:
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and commit them.
 4. Push to your fork and submit a pull request.
+5. Participate in the code review process by addressing feedback promptly.
 
 Please ensure that your code adheres to the project's coding standards and passes all tests before submitting a pull request.
