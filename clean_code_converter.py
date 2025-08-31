@@ -17,7 +17,7 @@ class CleanCodeConverter:
         suggestions = []
         if 'print' in code:
             suggestions.append('Avoid using print statements for debugging.')
-        if 'var ' in code:
+        if ' var ' in code:
             suggestions.append('Use let or const instead of var in JavaScript.')
         return suggestions
 
