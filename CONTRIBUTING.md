@@ -13,6 +13,6 @@ We welcome contributions! Here are some ways you can help:
 3. **Make your changes** and commit them.
 4. **Ensure** that your code passes all tests before pushing your changes.
 5. **Push** to your fork and submit a pull request.
-6. **Participate** in the code review process by addressing feedback promptly.
+6. **Participate** in the code review process by addressing feedback promptly. Your engagement in this process is crucial for the quality of the project.
 
 Please ensure that your code adheres to the project's coding standards and passes all tests before submitting a pull request.
