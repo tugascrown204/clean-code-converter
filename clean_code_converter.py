@@ -30,7 +30,7 @@ class CleanCodeConverter:
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print('Usage: python clean_code_converter.py path/to/your/code_file.py')
+        print('Usage: python clean_code_converter.py <path-to-your-code-file>')
         sys.exit(1)
     file_path = sys.argv[1]
     converter = CleanCodeConverter(file_path)
