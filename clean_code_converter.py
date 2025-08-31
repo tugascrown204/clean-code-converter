@@ -19,6 +19,8 @@ class CleanCodeConverter:
             suggestions.append('Avoid using print statements for debugging.')
         if ' var ' in code:
             suggestions.append('Use let or const instead of var in JavaScript.')
+        if code.strip().endswith(';'):
+            suggestions.append('Remove unnecessary semicolons in JavaScript code.')
         return suggestions
 
     def display_suggestions(self, suggestions):
